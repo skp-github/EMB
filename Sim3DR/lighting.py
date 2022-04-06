@@ -1,7 +1,7 @@
 # coding: utf-8
 
 import numpy as np
-from .Sim3DR import get_normal, rasterize
+from Sim3DR import get_normal, rasterize
 
 _norm = lambda arr: arr / np.sqrt(np.sum(arr ** 2, axis=1))[:, None]
 
